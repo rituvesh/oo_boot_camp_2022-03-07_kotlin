@@ -6,7 +6,7 @@
 
 package com.nrkei.training.oo.rectangle
 
-// Understands a four-sided polygon with sides at right angles
+// JOB_OF_CLASS
 class Rectangle() {
     
 }
