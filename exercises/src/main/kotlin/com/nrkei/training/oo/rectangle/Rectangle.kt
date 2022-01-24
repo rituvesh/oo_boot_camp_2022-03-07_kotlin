@@ -6,8 +6,6 @@
 
 package com.nrkei.training.oo.rectangle
 
-import com.nrkei.training.oo.order.Orderable
-
 // Understands a four-sided polygon with sides at right angles
 class Rectangle() {
     

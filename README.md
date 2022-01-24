@@ -15,11 +15,11 @@ Adapt as necessary for your environment.
 
 Note: This implementation was setup to use:
 
-- IntelliJ 2021.2
-- Kotlin 1.5.31
-- Java SDK 16.0.2 
-- Gradle 7.1.1
-- JUnit 5-style for testing.
+- IntelliJ 2021.4.1
+- Kotlin 1.6.10
+- Java SDK 17.0.2 (Oracle)
+- Gradle 7.3.3
+- JUnit 5.8.2 for testing
 
 Open the reference code:
 
