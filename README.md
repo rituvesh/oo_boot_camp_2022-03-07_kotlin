@@ -1,10 +1,10 @@
-# oo_boot_camp_2022-01-24_kotlin
+# oo_boot_camp_2022-03-07_kotlin
 
 Copyright (c) 2022 by Fred George  
 May be used freely except for training; license required for training.
 
-OO Boot Camp reference implementation for Jordanian client in Kotlin
-in January 2022.
+OO Boot Camp reference implementation for Norwegian client in Kotlin
+in March 2022.
 
 Kotlin is relatively easy to setup with IntelliJ IDEA. 
 Gradle is used for building and testing the project, and is a 
@@ -15,7 +15,7 @@ Adapt as necessary for your environment.
 
 Note: This implementation was setup to use:
 
-- IntelliJ 2021.4.1
+- IntelliJ 2021.3.2
 - Kotlin 1.6.10
 - Java SDK 17.0.2 (Oracle)
 - Gradle 7.3.3
