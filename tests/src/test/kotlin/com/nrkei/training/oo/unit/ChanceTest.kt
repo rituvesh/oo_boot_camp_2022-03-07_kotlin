@@ -4,7 +4,7 @@
  * @author Fred George  fredgeorge@acm.org
  */
 
-package com.nrkei.training.oo.unit
+package com.nrkei.training.oo.unit.com.nrkei.training.oo.unit
 
 import com.nrkei.training.oo.probability.Chance
 import org.junit.jupiter.api.Assertions.*
