@@ -16,6 +16,12 @@ class Chance(likelihoodAsFraction: Number) {
         private const val CERTAIN_FRACTION = 1.0
     }
 
+    init {
+        require(likelihoodAsFraction.toDouble() in 0.0..CERTAIN_FRACTION) {
+            "Value must be between 0.0 and 1.0, inclusive"
+        }
+    }
+
     private val fraction = likelihoodAsFraction.toDouble()
 
     override fun equals(other: Any?) = this === other || other is Chance && this.equals(other)
@@ -27,4 +33,7 @@ class Chance(likelihoodAsFraction: Number) {
     operator fun not() = Chance(CERTAIN_FRACTION - fraction)
 
     infix fun and(other: Chance) = Chance(this.fraction * other.fraction)
+
+    // Implemented with DeMorgan's Law https://en.wikipedia.org/wiki/De_Morgan%27s_laws
+    infix fun or(other: Chance) = !(!this and !other)
 }
