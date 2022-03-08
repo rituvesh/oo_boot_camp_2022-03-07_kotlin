@@ -24,6 +24,7 @@ class Unit {
         val Number.pints get() = Quantity(this, PINT)
         val Number.quarts get() = Quantity(this, QUART)
         val Number.gallons get() = Quantity(this, GALLON)
+
         private val INCH = Unit()
         private val FOOT = Unit(12, INCH)
         private val YARD = Unit(3, FOOT)
